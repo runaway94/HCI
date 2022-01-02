@@ -1,16 +1,41 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Usability Guidelines}{1}{section.1}%
-\contentsline {section}{\numberline {2}Context of use}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Context of Use}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}User Roles}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}User Stories}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Usage Requirements}{2}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Design Guidelines}{3}{section.3}%
-\contentsline {section}{\numberline {4}Information Architecture}{4}{section.4}%
-\contentsline {section}{\numberline {5}Competitive Analysis}{5}{section.5}%
-\contentsline {section}{\numberline {6}Sketching}{6}{section.6}%
-\contentsline {section}{\numberline {7}Prototyping}{7}{section.7}%
-\contentsline {section}{\numberline {8}Evaluation}{8}{section.8}%
-\contentsline {section}{\numberline {9}Recap}{9}{section.9}%
-\contentsline {section}{References}{10}{section*.3}%
+\contentsline {subsection}{\numberline {1.1}Consistency and standards}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Support the user in avoiding errors}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Minimize mental stress}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Jakob's Law}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Law of common region}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Law of similarity}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Law of uniform connectedness}{2}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Context of use}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Idea of the application}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}User roles}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Lender}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Renter}{3}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}User journey maps}{3}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}User journey map for the renting person}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}User journey map for the renting person}{4}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}User Stories}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Stories for the renter}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Stories for the lender}{7}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {3}Design Guidelines}{8}{section.3}%
+\contentsline {paragraph}{\nonumberline Steps Left}{9}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Cards}{9}{paragraph*.16}%
+\contentsline {paragraph}{\nonumberline Autocomplete and Input Feedback}{10}{paragraph*.19}%
+\contentsline {paragraph}{\nonumberline Rate Content}{10}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline Chat}{10}{paragraph*.24}%
+\contentsline {paragraph}{\nonumberline Product Page}{10}{paragraph*.26}%
+\contentsline {paragraph}{\nonumberline Gallery}{11}{paragraph*.28}%
+\contentsline {paragraph}{\nonumberline Calendar Picker}{11}{paragraph*.30}%
+\contentsline {paragraph}{\nonumberline Password Strength Meter}{11}{paragraph*.33}%
+\contentsline {paragraph}{\nonumberline Dashboard}{11}{paragraph*.35}%
+\contentsline {paragraph}{\nonumberline Status-Quo Bias}{11}{paragraph*.38}%
+\contentsline {paragraph}{\nonumberline Shortcut Dropdown}{11}{paragraph*.40}%
+\contentsline {section}{\numberline {4}Information Architecture}{13}{section.4}%
+\contentsline {section}{\numberline {5}Competitive Analysis}{14}{section.5}%
+\contentsline {section}{\numberline {6}Sketching}{15}{section.6}%
+\contentsline {section}{\numberline {7}Prototyping}{16}{section.7}%
+\contentsline {section}{\numberline {8}Evaluation}{20}{section.8}%
+\contentsline {section}{\numberline {9}Recap}{21}{section.9}%
+\contentsline {section}{References}{22}{section*.54}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

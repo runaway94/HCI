@@ -37,7 +37,7 @@
 
 % Unterstützung für Schriftarten
 %\newcommand{\changefont}[3]{ 
-%\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+	%\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
 
 % Packet für Seitenrandabständex und Einstellung für Seitenränder
 \usepackage{geometry}
@@ -100,14 +100,14 @@
 %Konfiguriere das tsverzeichnis
 \usepackage{tocbasic}
 \DeclareTOCStyleEntries[
-  raggedentrytext,
-  numwidth=0pt,
-  numsep=1ex,
-  dynnumwidth,
+raggedentrytext,
+numwidth=0pt,
+numsep=1ex,
+dynnumwidth,
 ]{tocline}{chapter,section,subsection,subsubsection,paragraph,subparagraph}
 \DeclareTOCStyleEntries[
-  indent=0pt,
-  linefill=\TOCLineLeaderFill,
+indent=0pt,
+linefill=\TOCLineLeaderFill,
 ]{tocline}{section,subsection,subsubsection,paragraph,subparagraph}
 
 
@@ -152,172 +152,172 @@
 % \displaywidowpenalty = 10000
 
 \begin{document}
-% hier werden die Trennvorschläge inkludiert
-\input{latex_einstellungen/trennung}
-
-% Schriftart Helvetica verwenden
-%\usepackage{helvet}
-%\renewcommand\familydefault{\sfdefault}
-
-% Leere Seite am Anfang
-%\thispagestyle{empty} % erzeugt Seite ohne Kopf- / Fusszeile
-%\mbox{}
-%\newpage
-
-% Titelseite %
-\input{latex_einstellungen/deckblatt}
-
-% römische Numerierung
-\pagenumbering{roman}
-
-% 1.5 facher Zeilenabstand
-\onehalfspacing
-
-
-
-
-\newpage
-
-% Einleitung / Abstract
-%\thispagestyle{empty}
-%\input{0_abstract}
-
-% einfacher Zeilenabstand
-\singlespacing
-
-\newpage
-% Seitenzählung bei Inhaltsverzeichnis beginnen
-\setcounter{page}{1}
-
-% Inhaltsverzeichnis anzeigen
-\thispagestyle{empty}
-\tableofcontents
-
-\newpage
-% das Abbildungsverzeichnis
-% Verion 1: Abbildungsverzeichnis MIT führender Nummberierung endgueltig anzeigen
-%\listoffigures
-% Abbildungsverzeichnis soll im Inhaltsverzeichnis auftauchen
-%\addcontentsline{toc}{section}{Abbildungsverzeichnis}
-
-% Verion 2: Abbildungsverzeichnis OHNE führende Nummberierung endgueltig anzeigen
-%\begingroup
-%\renewcommand\numberline[1]{}
-%\listoffigures
-%\endgroup
-
-
-% das Tabellenverzeichnis
-\newpage
-% \fancyhead[L]{Abbildungsverzeichnis / Abkürzungsverzeichnis} %Kopfzeile links
-% Tabellenverzeichnis endgültig anzeigen
-%\listoftables
-% Tabellenverzeichnis soll im Inhaltsverzeichnis auftauchen
-%\addcontentsline{toc}{section}{Tabellenverzeichnis}
-
-%% WORKAROUND für Listings
-%\makeatletter% --> De-TeX-FAQ
-%\renewcommand*{\lstlistoflistings}{%
-%  \begingroup
-%    \if@twocolumn
-%      \@restonecoltrue\onecolumn
-%    \else
-%      \@restonecolfalse
-%    \fi
-%    \lol@heading
-%    \setlength{\parskip}{\z@}%
-%    \setlength{\parindent}{\z@}%
-%    \setlength{\parfillskip}{\z@ \@plus 1fil}%
-%    \@starttoc{lol}%
-%    \if@restonecol\twocolumn\fi
-%  \endgroup
-%}
-%\makeatother% --> \makeatletter
-% das Listingverzeichnis
-%\newpage
-%\fancyhead[L]{Listingverzeichnis} %Kopfzeile links
-%\renewcommand{\lstlistlistingname}{Listingverzeichnis}
-%\lstlistoflistings
-% Listingverzeichnis soll im Inhaltsverzeichnis auftauchen
-%\addcontentsline{toc}{section}{Listingverzeichnis}
-%%%%
-
-% das Abkürzungsverzeichnis
-%\newpage
-% das Abkürzungsverzeichnis ausgeben
-%\fancyhead[L]{Abkürzungsverzeichnis} %Kopfzeile links
-%\input{latex_einstellungen/abkuezungen/abkuerzungen}
-%\printnomenclature[3cm]
-% Abkürzungsverzeichnis soll im Inhaltsverzeichnis auftauchen
-%\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
-
-
-%%%%%%% EINLEITUNG %%%%%%%%%%%%
-\newpage
-\fancyhead[L]{\nouppercase{\leftmark}} %Kopfzeile links
-
-% 1,5 facher Zeilenabstand
-\onehalfspacing
-
-% arabische Seitennummerierung ab hier
-\pagenumbering{arabic}
-
-% Alternative Einbindung des Abstract in Kapitel "0" falls gewünscht
-%\setcounter{section}{-1}
-%\setcounter{page}{0}
-
-% Option: Einbindung abstract
-%\input{0_abstract}
-%\newpage
-
-% einzelne Kapitel werden hier eingebunden
-\input{Usability_Guidelines}
-\newpage
-\input{Context_of_use}
-\newpage
-\input{Design_guidelines}
-\newpage
-\input{Information_Architecture}
-\newpage
-\input{Competitive_analysis}
-\newpage
-\input{Sketching}
-\newpage
-\input{Prototyping_with_figma}
-\newpage
-\input{Evaluation}
-\newpage
-\input{Recap}
-\newpage
-
-
-\begin{appendix}
-
-\end{appendix}
-%\appendix
-%\section{Project Structure}
-%\includepdf[pages=-,offset=75 -75, scale=0.6]{app/project_structure}
-%\includepdf[pages=1, scale=0.9, frame=false]{app/project_structure}
-% einfacher Zeilenabstand
-\singlespacing
-% aturliste soll im Inhaltsverzeichnis auftauchen
-\newpage
-\phantomsection
-\addcontentsline{toc}{section}{References}
-% Literaturverzeichnis anzeigen
-%\renewcommand\refname{Literaturverzeichnis}
-\nocite{*}
-\bibliography{Literaturverzeichnis}{}
-
-%% Index soll Stichwortverzeichnis heissen
-% \newpage
-% % Stichwortverzeichnis soll im Inhaltsverzeichnis auftauchen
-% \addcontentsline{toc}{section}{Stichwortverzeichnis}
-% \renewcommand{\indexname}{Stichwortverzeichnis}
-% % Stichwortverzeichnis endgültig anzeigen
-% \printindex
-
-\onehalfspacing
-% evtl. Anhang
-
+	% hier werden die Trennvorschläge inkludiert
+	\input{latex_einstellungen/trennung}
+	
+	% Schriftart Helvetica verwenden
+	%\usepackage{helvet}
+	%\renewcommand\familydefault{\sfdefault}
+	
+	% Leere Seite am Anfang
+	%\thispagestyle{empty} % erzeugt Seite ohne Kopf- / Fusszeile
+	%\mbox{}
+	%\newpage
+	
+	% Titelseite %
+	\input{latex_einstellungen/deckblatt}
+	
+	% römische Numerierung
+	\pagenumbering{roman}
+	
+	% 1.5 facher Zeilenabstand
+	\onehalfspacing
+	
+	
+	
+	
+	\newpage
+	
+	% Einleitung / Abstract
+	%\thispagestyle{empty}
+	%\input{0_abstract}
+	
+	% einfacher Zeilenabstand
+	\singlespacing
+	
+	\newpage
+	% Seitenzählung bei Inhaltsverzeichnis beginnen
+	\setcounter{page}{1}
+	
+	% Inhaltsverzeichnis anzeigen
+	\thispagestyle{empty}
+	\tableofcontents
+	
+	\newpage
+	% das Abbildungsverzeichnis
+	% Verion 1: Abbildungsverzeichnis MIT führender Nummberierung endgueltig anzeigen
+	%\listoffigures
+	% Abbildungsverzeichnis soll im Inhaltsverzeichnis auftauchen
+	%\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+	
+	% Verion 2: Abbildungsverzeichnis OHNE führende Nummberierung endgueltig anzeigen
+	%\begingroup
+	%\renewcommand\numberline[1]{}
+	%\listoffigures
+	%\endgroup
+	
+	
+	% das Tabellenverzeichnis
+	\newpage
+	% \fancyhead[L]{Abbildungsverzeichnis / Abkürzungsverzeichnis} %Kopfzeile links
+	% Tabellenverzeichnis endgültig anzeigen
+	%\listoftables
+	% Tabellenverzeichnis soll im Inhaltsverzeichnis auftauchen
+	%\addcontentsline{toc}{section}{Tabellenverzeichnis}
+	
+	%% WORKAROUND für Listings
+	%\makeatletter% --> De-TeX-FAQ
+	%\renewcommand*{\lstlistoflistings}{%
+		%  \begingroup
+		%    \if@twocolumn
+		%      \@restonecoltrue\onecolumn
+		%    \else
+		%      \@restonecolfalse
+		%    \fi
+		%    \lol@heading
+		%    \setlength{\parskip}{\z@}%
+		%    \setlength{\parindent}{\z@}%
+		%    \setlength{\parfillskip}{\z@ \@plus 1fil}%
+		%    \@starttoc{lol}%
+		%    \if@restonecol\twocolumn\fi
+		%  \endgroup
+		%}
+	%\makeatother% --> \makeatletter
+	% das Listingverzeichnis
+	%\newpage
+	%\fancyhead[L]{Listingverzeichnis} %Kopfzeile links
+	%\renewcommand{\lstlistlistingname}{Listingverzeichnis}
+	%\lstlistoflistings
+	% Listingverzeichnis soll im Inhaltsverzeichnis auftauchen
+	%\addcontentsline{toc}{section}{Listingverzeichnis}
+	%%%%
+	
+	% das Abkürzungsverzeichnis
+	%\newpage
+	% das Abkürzungsverzeichnis ausgeben
+	%\fancyhead[L]{Abkürzungsverzeichnis} %Kopfzeile links
+	%\input{latex_einstellungen/abkuezungen/abkuerzungen}
+	%\printnomenclature[3cm]
+	% Abkürzungsverzeichnis soll im Inhaltsverzeichnis auftauchen
+	%\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+	
+	
+	%%%%%%% EINLEITUNG %%%%%%%%%%%%
+	\newpage
+	\fancyhead[L]{\nouppercase{\leftmark}} %Kopfzeile links
+	
+	% 1,5 facher Zeilenabstand
+	\onehalfspacing
+	
+	% arabische Seitennummerierung ab hier
+	\pagenumbering{arabic}
+	
+	% Alternative Einbindung des Abstract in Kapitel "0" falls gewünscht
+	%\setcounter{section}{-1}
+	%\setcounter{page}{0}
+	
+	% Option: Einbindung abstract
+	%\input{0_abstract}
+	%\newpage
+	
+	% einzelne Kapitel werden hier eingebunden
+	\input{Usability_Guidelines}
+	\newpage
+	\input{Context_of_use}
+	\newpage
+	\input{Design_guidelines}
+	\newpage
+	\input{Information_Architecture}
+	\newpage
+	\input{Competitive_analysis}
+	\newpage
+	\input{Sketching}
+	\newpage
+	\input{Prototyping_with_figma}
+	\newpage
+	\input{Evaluation}
+	\newpage
+	\input{Recap}
+	\newpage
+	
+	
+	\begin{appendix}
+		
+	\end{appendix}
+	%\appendix
+	%\section{Project Structure}
+	%\includepdf[pages=-,offset=75 -75, scale=0.6]{app/project_structure}
+	%\includepdf[pages=1, scale=0.9, frame=false]{app/project_structure}
+	% einfacher Zeilenabstand
+	\singlespacing
+	% aturliste soll im Inhaltsverzeichnis auftauchen
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{section}{References}
+	% Literaturverzeichnis anzeigen
+	%\renewcommand\refname{Literaturverzeichnis}
+	\nocite{*}
+	\bibliography{Literaturverzeichnis}{}
+	
+	%% Index soll Stichwortverzeichnis heissen
+	% \newpage
+	% % Stichwortverzeichnis soll im Inhaltsverzeichnis auftauchen
+	% \addcontentsline{toc}{section}{Stichwortverzeichnis}
+	% \renewcommand{\indexname}{Stichwortverzeichnis}
+	% % Stichwortverzeichnis endgültig anzeigen
+	% \printindex
+	
+	\onehalfspacing
+	% evtl. Anhang
+	
 \end{document}
