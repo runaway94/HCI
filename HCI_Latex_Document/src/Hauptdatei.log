@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.23)  3 JAN 2022 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.23)  3 JAN 2022 19:39
 entering extended mode
 **./Hauptdatei.tex
 (Hauptdatei.tex
@@ -912,7 +912,152 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 (C:\Users\annaz\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(Hauptdatei.toc)
+(Hauptdatei.toc
+Overfull \hbox (6.59999pt too wide) detected at line 2
+\T1/lmss/bx/n/12 1 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 3
+\T1/lmr/m/n/12 1.1 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 4
+\T1/lmr/m/n/12 1.2 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 5
+\T1/lmr/m/n/12 1.2.1 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 6
+\T1/lmr/m/n/12 1.2.2 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 7
+\T1/lmr/m/n/12 1.3 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 8
+\T1/lmr/m/n/12 1.3.1 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 9
+\T1/lmr/m/n/12 1.3.2 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 10
+\T1/lmr/m/n/12 1.4 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 11
+\T1/lmr/m/n/12 1.4.1 
+ []
+
+
+Overfull \hbox (24.15294pt too wide) detected at line 12
+\T1/lmr/m/n/12 1.4.2 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 13
+\T1/lmss/bx/n/12 2 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 26
+\T1/lmss/bx/n/12 3 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 27
+\T1/lmss/bx/n/12 4 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 28
+\T1/lmss/bx/n/12 5 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 29
+\T1/lmr/m/n/12 5.1 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 30
+\T1/lmr/m/n/12 5.2 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 31
+\T1/lmss/bx/n/12 6 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 32
+\T1/lmss/bx/n/12 7 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 33
+\T1/lmr/m/n/12 7.1 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 34
+\T1/lmr/m/n/12 7.2 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 35
+\T1/lmr/m/n/12 7.3 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 36
+\T1/lmr/m/n/12 7.4 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 37
+\T1/lmr/m/n/12 7.5 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 38
+\T1/lmr/m/n/12 7.6 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 39
+\T1/lmr/m/n/12 7.7 
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 40
+\T1/lmss/bx/n/12 8 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 41
+\T1/lmr/m/n/12 8.1 
+ []
+
+
+Overfull \hbox (15.01396pt too wide) detected at line 42
+\T1/lmr/m/n/12 8.2 
+ []
+
+)
 \tf@toc=\write7
 \openout7 = `Hauptdatei.toc'.
 
@@ -1241,30 +1386,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 [][][]|\T1/lmr/m/n/12 Com-mon re-
  []
 
-) [21 <./abb/1_usability_guidelines/heuristic_region.png>] (Evaluation.tex)
+) [21 <./abb/1_usability_guidelines/heuristic_region.png>] (Evaluation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--40
+
+ []
+
 [22
 
-] (Recap.tex) [23]
-
-Class scrartcl Warning: You are using `\begin{appendix}...\end{appendix}'.
-(scrartcl)              You should note, that `\appendix' is a mostly globally
-(scrartcl)              working command not an enviroment with only local
-(scrartcl)              effects. Therefore `\end{appendix}' will neither
-(scrartcl)              switch back to normal section numbering nor finish
-(scrartcl)              every other effect of `\begin{appendix}'.
-(scrartcl)              Nevertheless, some effects may end with
-(scrartcl)              `\end{appendix}' and the document may become
-(scrartcl)              inconsistent.
-(scrartcl)              Because of this, you should remove `\end{appendix}'
-(scrartcl)              and replace `\begin{appendix}' by command
-(scrartcl)              `\appendix' on input line 294.
-
-(Hauptdatei.bbl
-
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 10.
-
-) [24] (Hauptdatei.aux)
+]) [23] (Hauptdatei.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1272,10 +1441,10 @@ Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19516 strings out of 478927
- 336336 string characters out of 2852534
+ 19500 strings out of 478927
+ 335976 string characters out of 2852534
  930082 words of memory out of 3000000
- 36843 multiletter control sequences out of 15000+600000
+ 36835 multiletter control sequences out of 15000+600000
  443542 words of font info for 56 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  108i,11n,108p,10607b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1286,9 +1455,9 @@ sers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Us
 ers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Use
 rs/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/U
 sers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hauptdatei.pdf (26 pages, 15587271 bytes).
+Output written on Hauptdatei.pdf (25 pages, 15589561 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
