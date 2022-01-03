@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \contentsline {section}{\numberline {1}Usability Guidelines}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Consistency and standards}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Support the user in avoiding errors}{1}{subsection.1.2}%
@@ -33,9 +33,11 @@
 \contentsline {paragraph}{\nonumberline Shortcut Dropdown}{11}{paragraph*.40}%
 \contentsline {section}{\numberline {4}Information Architecture}{13}{section.4}%
 \contentsline {section}{\numberline {5}Competitive Analysis}{14}{section.5}%
-\contentsline {section}{\numberline {6}Sketching}{15}{section.6}%
-\contentsline {section}{\numberline {7}Prototyping}{16}{section.7}%
-\contentsline {section}{\numberline {8}Evaluation}{20}{section.8}%
-\contentsline {section}{\numberline {9}Recap}{21}{section.9}%
-\contentsline {section}{References}{22}{section*.54}%
+\contentsline {section}{\numberline {6}Sketching and Paper Prototyping}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Sketching}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Paper Prototyping}{15}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Prototyping}{18}{section.7}%
+\contentsline {section}{\numberline {8}Evaluation}{22}{section.8}%
+\contentsline {section}{\numberline {9}Recap}{23}{section.9}%
+\contentsline {section}{References}{24}{section*.59}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
