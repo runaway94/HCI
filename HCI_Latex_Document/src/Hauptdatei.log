@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.23)  3 JAN 2022 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.23)  3 JAN 2022 17:48
 entering extended mode
 **./Hauptdatei.tex
 (Hauptdatei.tex
@@ -706,7 +706,11 @@ tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box69
-) (Hauptdatei.aux)
+) (Hauptdatei.aux
+
+LaTeX Warning: Label `fig:Homepage4' multiply defined.
+
+)
 \openout1 = `Hauptdatei.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
@@ -917,91 +921,57 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.196 	\newpage
-                [1] (Usability_Guidelines.tex
-<abb/1_usability_guidelines/heuristic_constiency.png, id=76, 2890.8pt x 150.562
-5pt>
-File: abb/1_usability_guidelines/heuristic_constiency.png Graphic file (type pn
-g)
-<use abb/1_usability_guidelines/heuristic_constiency.png>
-Package pdftex.def Info: abb/1_usability_guidelines/heuristic_constiency.png  u
-sed on input line 16.
-(pdftex.def)             Requested size: 441.01773pt x 22.96936pt.
-<abb/1_usability_guidelines/heuristic_avoid_errors.png, id=77, 644.4075pt x 627
-.09282pt>
-File: abb/1_usability_guidelines/heuristic_avoid_errors.png Graphic file (type 
-png)
-<use abb/1_usability_guidelines/heuristic_avoid_errors.png>
-Package pdftex.def Info: abb/1_usability_guidelines/heuristic_avoid_errors.png 
- used on input line 26.
-(pdftex.def)             Requested size: 308.71106pt x 300.42702pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--29
-
- []
-
-[1 <./abb/1_usability_guidelines/heuristic_constiency.png> <./abb/1_usability_g
-uidelines/heuristic_avoid_errors.png>]
-<abb/1_usability_guidelines/heuristic_region.png, id=86, 193.47281pt x 614.295p
-t>
-File: abb/1_usability_guidelines/heuristic_region.png Graphic file (type png)
-<use abb/1_usability_guidelines/heuristic_region.png>
-Package pdftex.def Info: abb/1_usability_guidelines/heuristic_region.png  used 
-on input line 54.
-(pdftex.def)             Requested size: 132.30666pt x 420.08653pt.
-) [2 <./abb/1_usability_guidelines/heuristic_region.png>] (Context_of_use.tex
+                [1] (Context_of_use.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<abb/2_context_of_use/user_journey_map_renting.png, id=100, 1773.62625pt x 610.
-28pt>
+<abb/2_context_of_use/user_journey_map_renting.png, id=80, 1773.62625pt x 610.2
+8pt>
 File: abb/2_context_of_use/user_journey_map_renting.png Graphic file (type png)
 
 <use abb/2_context_of_use/user_journey_map_renting.png>
 Package pdftex.def Info: abb/2_context_of_use/user_journey_map_renting.png  use
 d on input line 24.
 (pdftex.def)             Requested size: 441.01773pt x 151.75015pt.
-[3
-
-]
-<abb/2_context_of_use/feelings_renting.png, id=105, 1793.70125pt x 398.48875pt>
-
+[1]
+<abb/2_context_of_use/feelings_renting.png, id=85, 1793.70125pt x 398.48875pt>
 File: abb/2_context_of_use/feelings_renting.png Graphic file (type png)
 <use abb/2_context_of_use/feelings_renting.png>
 Package pdftex.def Info: abb/2_context_of_use/feelings_renting.png  used on inp
 ut line 34.
 (pdftex.def)             Requested size: 441.01773pt x 97.97414pt.
-<abb/2_context_of_use/user_journey_map_lending.png, id=106, 1535.7375pt x 858.2
-0625pt>
+<abb/2_context_of_use/user_journey_map_lending.png, id=86, 1535.7375pt x 858.20
+625pt>
 File: abb/2_context_of_use/user_journey_map_lending.png Graphic file (type png)
 
 <use abb/2_context_of_use/user_journey_map_lending.png>
 Package pdftex.def Info: abb/2_context_of_use/user_journey_map_lending.png  use
 d on input line 44.
 (pdftex.def)             Requested size: 441.01773pt x 246.45084pt.
- [4 <./abb/2_context_of_use/user_journey_map_renting.png> <./abb/2_context_of_u
+ [2 <./abb/2_context_of_use/user_journey_map_renting.png> <./abb/2_context_of_u
 se/feelings_renting.png>]
-<abb/2_context_of_use/feelings_lending.png, id=113, 1751.54375pt x 493.845pt>
+<abb/2_context_of_use/feelings_lending.png, id=93, 1751.54375pt x 493.845pt>
 File: abb/2_context_of_use/feelings_lending.png Graphic file (type png)
 <use abb/2_context_of_use/feelings_lending.png>
 Package pdftex.def Info: abb/2_context_of_use/feelings_lending.png  used on inp
 ut line 51.
 (pdftex.def)             Requested size: 441.01773pt x 124.34259pt.
-<abb/2_context_of_use/story_renting.jpg, id=114, 1109.14375pt x 907.39pt>
+<abb/2_context_of_use/story_renting.jpg, id=94, 1109.14375pt x 907.39pt>
 File: abb/2_context_of_use/story_renting.jpg Graphic file (type jpg)
 <use abb/2_context_of_use/story_renting.jpg>
 Package pdftex.def Info: abb/2_context_of_use/story_renting.jpg  used on input 
 line 69.
 (pdftex.def)             Requested size: 441.01773pt x 360.78964pt.
- [5 <./abb/2_context_of_use/user_journey_map_lending.png> <./abb/2_context_of_u
+ [3 <./abb/2_context_of_use/user_journey_map_lending.png> <./abb/2_context_of_u
 se/feelings_lending.png>]
-<abb/2_context_of_use/story_lending.jpg, id=122, 1086.0575pt x 926.46124pt>
+<abb/2_context_of_use/story_lending.jpg, id=101, 1086.0575pt x 926.46124pt>
 File: abb/2_context_of_use/story_lending.jpg Graphic file (type jpg)
 <use abb/2_context_of_use/story_lending.jpg>
 Package pdftex.def Info: abb/2_context_of_use/story_lending.jpg  used on input 
 line 78.
 (pdftex.def)             Requested size: 441.01773pt x 376.20432pt.
- [6 <./abb/2_context_of_use/story_renting.jpg>]) [7 <./abb/2_context_of_use/sto
+ [4 <./abb/2_context_of_use/story_renting.jpg>]) [5 <./abb/2_context_of_use/sto
 ry_lending.jpg>]
 (Design_guidelines.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
@@ -1010,60 +980,107 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
 (C:\Users\annaz\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<abb/3_design_guidelines/stepsleft.png, id=133, 1927.2pt x 1084.05pt>
+<abb/3_design_guidelines/stepsleft.png, id=113, 1927.2pt x 1084.05pt>
 File: abb/3_design_guidelines/stepsleft.png Graphic file (type png)
 <use abb/3_design_guidelines/stepsleft.png>
 Package pdftex.def Info: abb/3_design_guidelines/stepsleft.png  used on input l
 ine 35.
 (pdftex.def)             Requested size: 441.01773pt x 248.06912pt.
- [8]
-<abb/3_design_guidelines/cards.png, id=139, 1576.89125pt x 799.98875pt>
+ [6]
+<abb/3_design_guidelines/cards.png, id=119, 1576.89125pt x 799.98875pt>
 File: abb/3_design_guidelines/cards.png Graphic file (type png)
 <use abb/3_design_guidelines/cards.png>
 Package pdftex.def Info: abb/3_design_guidelines/cards.png  used on input line 
 46.
 (pdftex.def)             Requested size: 441.01773pt x 223.72678pt.
 
-[9 <./abb/3_design_guidelines/stepsleft.png> <./abb/3_design_guidelines/cards.p
+[7 <./abb/3_design_guidelines/stepsleft.png> <./abb/3_design_guidelines/cards.p
 ng>]
-<abb/3_design_guidelines/rate.png, id=150, 1927.2pt x 1084.05pt>
+<abb/3_design_guidelines/rate.png, id=130, 1927.2pt x 1084.05pt>
 File: abb/3_design_guidelines/rate.png Graphic file (type png)
 <use abb/3_design_guidelines/rate.png>
 Package pdftex.def Info: abb/3_design_guidelines/rate.png  used on input line 6
 1.
 (pdftex.def)             Requested size: 441.01773pt x 248.06912pt.
- [10 <./abb/3_design_guidelines/rate.png>]
-<abb/3_design_guidelines/calendar_picker.png, id=164, 977.6525pt x 109.40875pt>
+ [8 <./abb/3_design_guidelines/rate.png>]
+<abb/3_design_guidelines/calendar_picker.png, id=144, 977.6525pt x 109.40875pt>
 
 File: abb/3_design_guidelines/calendar_picker.png Graphic file (type png)
 <use abb/3_design_guidelines/calendar_picker.png>
 Package pdftex.def Info: abb/3_design_guidelines/calendar_picker.png  used on i
 nput line 90.
 (pdftex.def)             Requested size: 441.01773pt x 49.35533pt.
-<abb/3_design_guidelines/messages_1.png, id=165, 1927.2pt x 1084.05pt>
+<abb/3_design_guidelines/messages_1.png, id=145, 1927.2pt x 1084.05pt>
 File: abb/3_design_guidelines/messages_1.png Graphic file (type png)
 <use abb/3_design_guidelines/messages_1.png>
 Package pdftex.def Info: abb/3_design_guidelines/messages_1.png  used on input 
 line 104.
 (pdftex.def)             Requested size: 216.1011pt x 121.5451pt.
-<abb/3_design_guidelines/messages_2.png, id=166, 1927.2pt x 1084.05pt>
+<abb/3_design_guidelines/messages_2.png, id=146, 1927.2pt x 1084.05pt>
 File: abb/3_design_guidelines/messages_2.png Graphic file (type png)
 <use abb/3_design_guidelines/messages_2.png>
 Package pdftex.def Info: abb/3_design_guidelines/messages_2.png  used on input 
 line 105.
 (pdftex.def)             Requested size: 216.1011pt x 121.5451pt.
-<abb/3_design_guidelines/dropdown_shortcut.png, id=167, 1562.83875pt x 861.2175
+<abb/3_design_guidelines/dropdown_shortcut.png, id=147, 1562.83875pt x 861.2175
 pt>
 File: abb/3_design_guidelines/dropdown_shortcut.png Graphic file (type png)
 <use abb/3_design_guidelines/dropdown_shortcut.png>
 Package pdftex.def Info: abb/3_design_guidelines/dropdown_shortcut.png  used on
  input line 119.
 (pdftex.def)             Requested size: 441.01773pt x 243.01843pt.
- [11 <./abb/3_design_guidelines/calendar_picker.png> <./abb/3_design_guidelines
-/messages_1.png> <./abb/3_design_guidelines/messages_2.png>]) [12 <./abb/3_desi
-gn_guidelines/dropdown_shortcut.png>] (Information_Architecture.tex) [13] (Comp
-etitive_analysis.tex) [14]
-(Sketching.tex) [15] (Prototyping_with_figma.tex
+ [9 <./abb/3_design_guidelines/calendar_picker.png> <./abb/3_design_guidelines/
+messages_1.png> <./abb/3_design_guidelines/messages_2.png>]) [10 <./abb/3_desig
+n_guidelines/dropdown_shortcut.png>] (Information_Architecture.tex) [11] (Compe
+titive_analysis.tex) [12]
+(Sketching.tex
+<abb/6_Sketching and Paper Prototyping/Homepage1.png, id=180, 1706.375pt x 1452
+.42625pt>
+File: abb/6_Sketching and Paper Prototyping/Homepage1.png Graphic file (type pn
+g)
+<use abb/6_Sketching and Paper Prototyping/Homepage1.png>
+Package pdftex.def Info: abb/6_Sketching and Paper Prototyping/Homepage1.png  u
+sed on input line 11.
+(pdftex.def)             Requested size: 441.01773pt x 375.38353pt.
+<abb/6_Sketching and Paper Prototyping/Homepage2.png, id=181, 1335.99126pt x 71
+4.67pt>
+File: abb/6_Sketching and Paper Prototyping/Homepage2.png Graphic file (type pn
+g)
+<use abb/6_Sketching and Paper Prototyping/Homepage2.png>
+Package pdftex.def Info: abb/6_Sketching and Paper Prototyping/Homepage2.png  u
+sed on input line 22.
+(pdftex.def)             Requested size: 441.01773pt x 235.91815pt.
+ [13 <./abb/6_Sketching and Paper Prototyping/Homepage1.png>]
+<abb/6_Sketching and Paper Prototyping/Homepage3.png, id=187, 1120.185pt x 822.
+07124pt>
+File: abb/6_Sketching and Paper Prototyping/Homepage3.png Graphic file (type pn
+g)
+<use abb/6_Sketching and Paper Prototyping/Homepage3.png>
+Package pdftex.def Info: abb/6_Sketching and Paper Prototyping/Homepage3.png  u
+sed on input line 32.
+(pdftex.def)             Requested size: 441.01773pt x 323.65463pt.
+<abb/6_Sketching and Paper Prototyping/Homepage4.png, id=188, 1120.185pt x 814.
+04124pt>
+File: abb/6_Sketching and Paper Prototyping/Homepage4.png Graphic file (type pn
+g)
+<use abb/6_Sketching and Paper Prototyping/Homepage4.png>
+Package pdftex.def Info: abb/6_Sketching and Paper Prototyping/Homepage4.png  u
+sed on input line 40.
+(pdftex.def)             Requested size: 396.91325pt x 288.43391pt.
+
+[14 <./abb/6_Sketching and Paper Prototyping/Homepage2.png> <./abb/6_Sketching 
+and Paper Prototyping/Homepage3.png>]
+<abb/6_Sketching and Paper Prototyping/Homepage5.png, id=197, 462.528pt x 260.1
+72pt>
+File: abb/6_Sketching and Paper Prototyping/Homepage5.png Graphic file (type pn
+g)
+<use abb/6_Sketching and Paper Prototyping/Homepage5.png>
+Package pdftex.def Info: abb/6_Sketching and Paper Prototyping/Homepage5.png  u
+sed on input line 50.
+(pdftex.def)             Requested size: 441.01773pt x 248.083pt.
+) [15 <./abb/6_Sketching and Paper Prototyping/Homepage4.png> <./abb/6_Sketchin
+g and Paper Prototyping/Homepage5.png>]
+(Prototyping_with_figma.tex
 Overfull \hbox (23.6075pt too wide) in paragraph at lines 3--4
 []$\T1/lmtt/m/n/12 https : / / www . figma . com / proto / Ws8rKV3H7ABW2wMOwyFc
 fj / Lend -[] n -[] Rent ? node -[] id = 102 %
@@ -1075,120 +1092,159 @@ Overfull \hbox (43.10449pt too wide) in paragraph at lines 3--4
  starting -[] point -[] node -[] id = 102 % 3A17674$[] 
  []
 
-<abb/1landing.png, id=205, 1460.45625pt x 827.34094pt>
+<abb/1landing.png, id=207, 1460.45625pt x 827.34094pt>
 File: abb/1landing.png Graphic file (type png)
 <use abb/1landing.png>
 Package pdftex.def Info: abb/1landing.png  used on input line 10.
 (pdftex.def)             Requested size: 220.50887pt x 124.91635pt.
-<abb/11profilerent.png, id=206, 1464.2203pt x 825.83531pt>
+<abb/11profilerent.png, id=208, 1464.2203pt x 825.83531pt>
 File: abb/11profilerent.png Graphic file (type png)
 <use abb/11profilerent.png>
 Package pdftex.def Info: abb/11profilerent.png  used on input line 20.
 (pdftex.def)             Requested size: 216.1011pt x 121.87895pt.
-<abb/6profilelend.png, id=207, 1461.20906pt x 827.34094pt>
+<abb/6profilelend.png, id=209, 1461.20906pt x 827.34094pt>
 File: abb/6profilelend.png Graphic file (type png)
 <use abb/6profilelend.png>
 Package pdftex.def Info: abb/6profilelend.png  used on input line 21.
 (pdftex.def)             Requested size: 216.1011pt x 122.35364pt.
-<abb/2offer.png, id=208, 1460.45625pt x 828.09375pt>
+<abb/2offer.png, id=210, 1460.45625pt x 828.09375pt>
 File: abb/2offer.png Graphic file (type png)
 <use abb/2offer.png>
 Package pdftex.def Info: abb/2offer.png  used on input line 32.
 (pdftex.def)             Requested size: 220.50887pt x 125.03001pt.
 [16 <./abb/1landing.png> <./abb/11profilerent.png> <./abb/6profilelend.png> <./
 abb/2offer.png>]
-<abb/4item.png, id=221, 1948.27875pt x 1104.125pt>
+<abb/4item.png, id=224, 1948.27875pt x 1104.125pt>
 File: abb/4item.png Graphic file (type png)
 <use abb/4item.png>
 Package pdftex.def Info: abb/4item.png  used on input line 42.
 (pdftex.def)             Requested size: 216.1011pt x 122.46498pt.
-<abb/3offers.png, id=222, 1461.20906pt x 828.09375pt>
+<abb/3offers.png, id=225, 1461.20906pt x 828.09375pt>
 File: abb/3offers.png Graphic file (type png)
 <use abb/3offers.png>
 Package pdftex.def Info: abb/3offers.png  used on input line 43.
 (pdftex.def)             Requested size: 216.1011pt x 122.46498pt.
-<abb/8start.png, id=223, 1461.20906pt x 864.98157pt>
+<abb/8start.png, id=226, 1461.20906pt x 864.98157pt>
 File: abb/8start.png Graphic file (type png)
 <use abb/8start.png>
 Package pdftex.def Info: abb/8start.png  used on input line 54.
 (pdftex.def)             Requested size: 220.50887pt x 130.52034pt.
-<abb/9search.png, id=224, 1461.20906pt x 826.58812pt>
+<abb/9search.png, id=227, 1461.20906pt x 826.58812pt>
 File: abb/9search.png Graphic file (type png)
 <use abb/9search.png>
 Package pdftex.def Info: abb/9search.png  used on input line 65.
 (pdftex.def)             Requested size: 216.1011pt x 122.24231pt.
-<abb/10itemrent.png, id=225, 1459.70343pt x 827.34094pt>
+<abb/10itemrent.png, id=228, 1459.70343pt x 827.34094pt>
 File: abb/10itemrent.png Graphic file (type png)
 <use abb/10itemrent.png>
 Package pdftex.def Info: abb/10itemrent.png  used on input line 66.
 (pdftex.def)             Requested size: 216.1011pt x 122.47989pt.
  [17 <./abb/4item.png> <./abb/3offers.png> <./abb/8start.png> <./abb/9search.pn
 g> <./abb/10itemrent.png>]
-<abb/12step2.png, id=237, 1461.20906pt x 825.0825pt>
+<abb/12step2.png, id=242, 1461.20906pt x 825.0825pt>
 File: abb/12step2.png Graphic file (type png)
 <use abb/12step2.png>
 Package pdftex.def Info: abb/12step2.png  used on input line 78.
 (pdftex.def)             Requested size: 216.1011pt x 122.01965pt.
-<abb/5step1.png, id=238, 1451.4225pt x 826.58812pt>
+<abb/5step1.png, id=243, 1451.4225pt x 826.58812pt>
 File: abb/5step1.png Graphic file (type png)
 <use abb/5step1.png>
 Package pdftex.def Info: abb/5step1.png  used on input line 79.
 (pdftex.def)             Requested size: 216.1011pt x 123.06213pt.
-<abb/13step3.png, id=239, 1464.2203pt x 825.83531pt>
+<abb/13step3.png, id=244, 1464.2203pt x 825.83531pt>
 File: abb/13step3.png Graphic file (type png)
 <use abb/13step3.png>
 Package pdftex.def Info: abb/13step3.png  used on input line 90.
 (pdftex.def)             Requested size: 216.1011pt x 121.87895pt.
-<abb/14step3con.png, id=240, 1461.20906pt x 826.58812pt>
+<abb/14step3con.png, id=245, 1461.20906pt x 826.58812pt>
 File: abb/14step3con.png Graphic file (type png)
 <use abb/14step3con.png>
 Package pdftex.def Info: abb/14step3con.png  used on input line 91.
 (pdftex.def)             Requested size: 216.1011pt x 122.24231pt.
-<abb/15step4.png, id=241, 1461.20906pt x 824.32968pt>
+<abb/15step4.png, id=246, 1461.20906pt x 824.32968pt>
 File: abb/15step4.png Graphic file (type png)
 <use abb/15step4.png>
 Package pdftex.def Info: abb/15step4.png  used on input line 102.
 (pdftex.def)             Requested size: 216.1011pt x 121.90831pt.
-<abb/16step4con.png, id=242, 1461.20906pt x 823.57687pt>
+<abb/16step4con.png, id=247, 1461.20906pt x 823.57687pt>
 File: abb/16step4con.png Graphic file (type png)
 <use abb/16step4con.png>
 Package pdftex.def Info: abb/16step4con.png  used on input line 103.
 (pdftex.def)             Requested size: 216.1011pt x 121.79698pt.
  [18 <./abb/12step2.png> <./abb/5step1.png> <./abb/13step3.png> <./abb/14step3c
 on.png> <./abb/15step4.png> <./abb/16step4con.png>]
-<abb/17step5.png, id=256, 1458.95062pt x 824.32968pt>
+<abb/17step5.png, id=261, 1458.95062pt x 824.32968pt>
 File: abb/17step5.png Graphic file (type png)
 <use abb/17step5.png>
 Package pdftex.def Info: abb/17step5.png  used on input line 115.
 (pdftex.def)             Requested size: 216.1011pt x 122.09698pt.
-<abb/18step6.png, id=257, 1461.96187pt x 822.07124pt>
+<abb/18step6.png, id=262, 1461.96187pt x 822.07124pt>
 File: abb/18step6.png Graphic file (type png)
 <use abb/18step6.png>
 Package pdftex.def Info: abb/18step6.png  used on input line 116.
 (pdftex.def)             Requested size: 216.1011pt x 121.5116pt.
-<abb/19step7.png, id=258, 1463.4675pt x 823.57687pt>
+<abb/19step7.png, id=263, 1463.4675pt x 823.57687pt>
 File: abb/19step7.png Graphic file (type png)
 <use abb/19step7.png>
 Package pdftex.def Info: abb/19step7.png  used on input line 127.
 (pdftex.def)             Requested size: 216.1011pt x 121.60847pt.
-<abb/20steplast.png, id=259, 1458.95062pt x 822.07124pt>
+<abb/20steplast.png, id=264, 1458.95062pt x 822.07124pt>
 File: abb/20steplast.png Graphic file (type png)
 <use abb/20steplast.png>
 Package pdftex.def Info: abb/20steplast.png  used on input line 128.
 (pdftex.def)             Requested size: 216.1011pt x 121.76248pt.
-<abb/22chatrent.png, id=260, 1461.96187pt x 825.83531pt>
+<abb/22chatrent.png, id=265, 1461.96187pt x 825.83531pt>
 File: abb/22chatrent.png Graphic file (type png)
 <use abb/22chatrent.png>
 Package pdftex.def Info: abb/22chatrent.png  used on input line 139.
 (pdftex.def)             Requested size: 216.1011pt x 122.06798pt.
-<abb/21chatlend.png, id=261, 1462.71469pt x 826.58812pt>
+<abb/21chatlend.png, id=266, 1462.71469pt x 826.58812pt>
 File: abb/21chatlend.png Graphic file (type png)
 <use abb/21chatlend.png>
 Package pdftex.def Info: abb/21chatlend.png  used on input line 140.
 (pdftex.def)             Requested size: 216.1011pt x 122.11618pt.
 ) [19 <./abb/17step5.png> <./abb/18step6.png> <./abb/19step7.png> <./abb/20step
 last.png> <./abb/22chatrent.png> <./abb/21chatlend.png>]
-(Evaluation.tex) [20] (Recap.tex) [21]
+(Usability_Guidelines.tex
+<abb/1_usability_guidelines/heuristic_constiency.png, id=280, 2890.8pt x 150.56
+25pt>
+File: abb/1_usability_guidelines/heuristic_constiency.png Graphic file (type pn
+g)
+<use abb/1_usability_guidelines/heuristic_constiency.png>
+Package pdftex.def Info: abb/1_usability_guidelines/heuristic_constiency.png  u
+sed on input line 16.
+(pdftex.def)             Requested size: 441.01773pt x 22.96936pt.
+<abb/1_usability_guidelines/heuristic_avoid_errors.png, id=281, 644.4075pt x 62
+7.09282pt>
+File: abb/1_usability_guidelines/heuristic_avoid_errors.png Graphic file (type 
+png)
+<use abb/1_usability_guidelines/heuristic_avoid_errors.png>
+Package pdftex.def Info: abb/1_usability_guidelines/heuristic_avoid_errors.png 
+ used on input line 26.
+(pdftex.def)             Requested size: 308.71106pt x 300.42702pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+[20 <./abb/1_usability_guidelines/heuristic_constiency.png> <./abb/1_usability_
+guidelines/heuristic_avoid_errors.png>]
+<abb/1_usability_guidelines/heuristic_region.png, id=290, 193.47281pt x 614.295
+pt>
+File: abb/1_usability_guidelines/heuristic_region.png Graphic file (type png)
+<use abb/1_usability_guidelines/heuristic_region.png>
+Package pdftex.def Info: abb/1_usability_guidelines/heuristic_region.png  used 
+on input line 54.
+(pdftex.def)             Requested size: 132.30666pt x 420.08653pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[][][]|\T1/lmr/m/n/12 Com-mon re-
+ []
+
+) [21 <./abb/1_usability_guidelines/heuristic_region.png>] (Evaluation.tex)
+[22
+
+] (Recap.tex) [23]
 
 Class scrartcl Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrartcl)              You should note, that `\appendix' is a mostly globally
@@ -1208,18 +1264,21 @@ Class scrartcl Warning: You are using `\begin{appendix}...\end{appendix}'.
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
-) [22] (Hauptdatei.aux)
+) [24] (Hauptdatei.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19465 strings out of 478927
- 334347 string characters out of 2852534
- 929082 words of memory out of 3000000
- 36807 multiletter control sequences out of 15000+600000
+ 19516 strings out of 478927
+ 336336 string characters out of 2852534
+ 930082 words of memory out of 3000000
+ 36843 multiletter control sequences out of 15000+600000
  443542 words of font info for 56 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 108i,11n,108p,10607b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,11n,108p,10607b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/annaz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
 :/Users/annaz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
 sers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
@@ -1227,9 +1286,9 @@ sers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Us
 ers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Use
 rs/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/U
 sers/annaz/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Hauptdatei.pdf (24 pages, 13402526 bytes).
+Output written on Hauptdatei.pdf (26 pages, 15587271 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
