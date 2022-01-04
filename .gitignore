@@ -14,3 +14,8 @@ HCI_Latex_Document/src/Hauptdatei.log
 HCI_Latex_Document/src/Hauptdatei.pdf
 HCI_Latex_Document/src/Hauptdatei.synctex.gz
 HCI_Latex_Document/src/Hauptdatei.toc
+*.aux
+*.log
+*.pdf
+*.gz
+*.toc
